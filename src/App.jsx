@@ -1,6 +1,6 @@
 
 import './App.css'
-
+import perfil from "./assets/perfil.jpg";
 
 
 const App = () => {
@@ -9,7 +9,10 @@ const App = () => {
 
 <div className='header'>
 
-<div className='imagem_perfil'></div>
+<div className='imagem_perfil'>
+
+<img src={perfil} alt="foto de um homem fazendo exercicio" />
+</div>
 
 <div className='descricao_perfil'>
 
@@ -27,10 +30,14 @@ const App = () => {
 </div>
 </div>
 
-<section>
-<h1>Lista de tarefas</h1>
+<div className='container'>
 <h2>Dia</h2>
 <h2>Noite</h2>
+
+</div>
+
+<section>
+<h1>Lista de tarefas</h1>
 </section>
 
 </div>

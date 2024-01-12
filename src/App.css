@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,64 @@
 
 .read-the-docs {
   color: #888;
+} */
+img{
+  width: 25%;
+  height: 25%;
+  
+}
+.header h1{
+  font-size: 40px;
+  padding-left: 15px;
+  margin-top: -10px;
+  
+}
+
+.header h3{
+  width: 30%;
+  padding-left: 15px;
+}
+
+.header ul li{
+  list-style: none;
+  padding-left: 100px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: -600px;
+  margin-left: 400px;
+  
+}
+
+/* .container h2{
+  display: flex;
+  float: left;
+  justify-content: flex-end;
+  text-align: end;
+  position: relative;
+  top: -600px;
+  left: 550px;
+  margin-left: 250px;
+  
+} */
+
+.container{
+  max-width: 400px;
+  margin-left: 38%;
+  margin-top: -600px;
+  border-radius: 10px;
+  background-color: #646cffaa;
+  padding: 13.2rem;
+  box-shadow: rgba(192, 192, 201, 0.2) 0px 7px 29px 0px;
+ 
+}
+
+.container h2{
+ 
 }

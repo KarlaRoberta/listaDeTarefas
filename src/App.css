@@ -70,7 +70,7 @@ section h1{
   text-align: center;
   position: relative;
   top: -600px;
-  margin-left: 400px;
+  margin-left: 385px;
   
 }
 
@@ -94,9 +94,26 @@ section h1{
   background-color: #646cffaa;
   padding: 13.2rem;
   box-shadow: rgba(192, 192, 201, 0.2) 0px 7px 29px 0px;
+  display: flex;
  
 }
 
 .container h2{
- 
+  flex: 1;
+  position: relative;
+  left: 35px;
+  top: -170px;
+}
+
+form input{
+  position: relative;
+  left: 840px;
+  top: -620px;
+  padding: 12px;
+}
+
+button{
+  position: relative;
+  left: 850px;
+  top: -617px;
 }

@@ -4,6 +4,7 @@ import perfil from "./assets/perfil.jpg";
 
 
 const App = () => {
+
   return (
     <div>
 
@@ -38,6 +39,12 @@ const App = () => {
 
 <section>
 <h1>Lista de tarefas</h1>
+<form>
+  <input type="text" placeholder='Digite a sua tarefa' />
+  <button type='submit'>
+     <i className="fa fa-plus" aria-hidden="true"></i>
+  </button>
+</form>
 </section>
 
 </div>
